@@ -6,6 +6,11 @@ public class Human implements Person {
     private String name;    //имя
     private String surname; //фамилия
     private Date birthday;  //дата рожденния
+
+    /*  TODO (Замечание№1 ЛР№4)
+        - Место типа Date лучше используй LocalDate, с ним проще работать!
+    */
+
     /**
      * Возвращает имя человека.
      *
